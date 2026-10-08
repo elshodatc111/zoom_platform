@@ -5,4 +5,8 @@ backend/*.db
 __pycache__/
 .pytest_cache/
 frontend/node_modules/
-frontend/dist/
+zoom-platform.tar.gz
+*.tar.gz
+run.bat
+backend/.env_ok
+backend/.admin_ok
