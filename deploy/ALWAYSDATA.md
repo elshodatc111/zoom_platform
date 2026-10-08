@@ -1,3 +1,6 @@
+> **Eslatma:** Alwaysdata bepul tarifida Services yo'q va dastur bo'sh turganda to'xtatiladi, shuning uchun bu usul
+> bot va dars rejalovchi uchun ishonchsiz. Tavsiya: kompyuterda doimiy ishlatish, qarang `LOCAL.md`.
+
 # Alwaysdata.com'ga GitHub'dan o'rnatish
 
 Bot va dars rejalovchi **doimiy ishlashi** kerak (har 40 daqiqada havola yaratadi). Shuning uchun dastur

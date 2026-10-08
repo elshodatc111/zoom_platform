@@ -33,8 +33,8 @@ Talablar: Python 3.14, Node.js 20+, MySQL (ishlab turibdi).
    > `FERNET_KEY` ni **yo'qotmang**: Zoom kalitlari shu bilan shifrlangan.
 4. Birinchi admin: `backend\.venv\Scripts\python.exe backend\scripts\create_admin.py admin`
 5. Sinov: `deploy\run_dev.bat`, so'ng brauzerda http://localhost:8000
-6. Doimiy ishlash (Administrator PowerShell): `.\deploy\install_service.ps1` (NSSM kerak: `winget install NSSM.NSSM`)
-7. LAN: `.\deploy\open_firewall.ps1` va routerda kompyuterga doimiy IP bering. Boshqa qurilmadan: `http://<IP>:8000`
+6. Doimiy ishlash + `http://zoom.atko` (Administrator PowerShell): `.\deploy\install_local.ps1`, batafsil: `deploy\LOCAL.md`
+7. Boshqa qurilmalar uchun routerda doimiy IP va `zoom.atko` DNS yozuvi (`deploy\LOCAL.md`).
 
 Kompyuter uyqu rejimiga tushmasligi kerak: Sozlamalar → Quvvat → "Uyqu: hech qachon".
 
